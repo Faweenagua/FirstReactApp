@@ -1,5 +1,12 @@
 import React from "react";
+import reactLogo from "../images/react-icon.png";
 
 export default function Navbar() {
-  return <h1> jfdkj </h1>;
+  return (
+    <nav>
+      <img src={reactLogo} alt="React Logo" className="nav-icon" />
+      <h3 className="nav--logo_text">React Facts</h3>
+      <h4 className="nav_title">React Course - Project 1</h4>
+    </nav>
+  );
 }

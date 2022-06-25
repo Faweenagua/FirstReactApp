@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import { ReactDOM } from "react";
+import Navbar from "./components1/Navbar";
+import Main from "./components1/Main";
 
 export default function App() {
   return (

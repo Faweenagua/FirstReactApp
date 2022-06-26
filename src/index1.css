@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #292a31;
 }
 nav {
   display: flex;
@@ -13,14 +14,59 @@ nav {
   padding: 30px 25px;
 }
 
-nav > h3,
-nav > h4 {
+main {
+  height: 100%;
+  background-image: url(./images/react-icon-14.jpg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--content {
+  padding: 30px 25px;
+  height: 100%;
+}
+
+.main--heading {
+  font-weight: 600;
+  font-size: 40px;
+  color: #bbbbbb;
+  margin-bottom: 40px;
+  letter-spacing: -0.05em;
+}
+
+.main-list {
+  max-width: 400px;
+}
+
+.main-list > li {
+  text-decoration: none;
+  font-weight: 400;
+  color: #bbbbbb;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.main-list > li::marker {
+  font-size: 1.9rem;
+  color: #61dafb;
+}
+
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
-nav > h3 {
+.nav--logo_text {
   margin-right: auto;
+  margin-left: 10px;
   color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #ffffff;
+  font-weight: 600;
 }
 
 nav > img {
